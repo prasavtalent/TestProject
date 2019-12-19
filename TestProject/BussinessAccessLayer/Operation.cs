@@ -12,9 +12,9 @@ namespace TestProject.BussinessAccessLayer
          
             return a+b+c;
         }
-        public int subtration(int a,int b)
+        public int subtration(int a,int b,int c)
         {
-            return a - b;
+            return a - b-c;
         }
     }
 }
